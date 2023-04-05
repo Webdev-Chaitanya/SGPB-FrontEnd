@@ -8,9 +8,9 @@ const Footer = () => {
     <>
       <footer className="py-4">
         <div className="container-xxl">
-          <div className="row align-item-center">
+          <div className="row align-items-center">
             <div className="col-5">
-              <div className="footer-top-data d-flex gap-30 align-item-center">
+              <div className="footer-top-data d-flex gap-30 align-items-center">
                 <img src="images/newsletter.png" alt="newsletter"/>
                 <h2 className="mb-0 text-white">Sign up for newsletter</h2>
               </div>
@@ -49,7 +49,7 @@ const Footer = () => {
                 className="mt-3 d-block mb-0 text-white">
                 poojasahitya@gmail.com
                 </a>
-                <div className="social_icons d-flex align-item-center gap-30 mt-4">
+                <div className="social_icons d-flex align-items-center gap-30 mt-4">
                   <a className="text-white" href="">
                     <BsYoutube className="fs-4"/>
                   </a>

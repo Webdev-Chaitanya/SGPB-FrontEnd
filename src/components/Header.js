@@ -24,7 +24,7 @@ const Header = () => {
       </header>
       <header className="header-upper py-3">
         <div className="container-xxl">
-          <div className="row align-item-center">
+          <div className="row align-items-center">
             <div className="col-2">
               <h2>
                 <Link className="text-white">Dev Corner</Link>
@@ -45,9 +45,9 @@ const Header = () => {
               </div>
             </div>
             <div className="col-5">
-              <div className="header-upper-links d-flex align-item-center justify-content-between">
+              <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
-                  <Link className="d-flex align-item-center gap-10 text-white">
+                  <Link className="d-flex align-items-center gap-10 text-white">
                     <img src="/images/compare.svg" alt="compare" />
                     <p className="mb-0">
                       तुलना <br /> करा
@@ -55,7 +55,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-item-center gap-10 text-white">
+                  <Link className="d-flex align-items-center gap-10 text-white">
                     <img src="/images/wishlist.svg" alt="wishlist" />
                     <p className="mb-0">
                       इच्छा <br /> सूची
@@ -63,7 +63,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-item-center gap-10 text-white">
+                  <Link className="d-flex align-items-center gap-10 text-white">
                     <img src="/images/user.svg" alt="user" />
                     <p className="mb-0">
                       लॉगिन <br /> माझे खाते
@@ -71,7 +71,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div>
-                  <Link className="d-flex align-item-center gap-10 text-white">
+                  <Link className="d-flex align-items-center gap-10 text-white">
                     <img src="/images/cart.svg" alt="cart" />
                     <div className="d-flex flex-column gap-10">
                       <span className="badge bg-white text-dark">0</span>
@@ -88,11 +88,11 @@ const Header = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <div className="menu-bottom d-flex align-item-center gap-30">
+              <div className="menu-bottom d-flex align-items-center gap-30">
                 <div>
                   <div className="dropdown">
                     <button
-                      className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-item-center"
+                      className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
                       type="button"
                       id="dropdownMenuButton1"
                       data-bs-toggle="dropdown"
@@ -106,17 +106,17 @@ const Header = () => {
                       aria-labelledby="dropdownMenuButton1"
                     >
                       <li>
-                        <Link className="dropdown-item text-white" to="" >
+                        <Link className="dropdown-items text-white" to="" >
                           Action
                         </Link>
                       </li>
                       <li>
-                        <Link class="dropdown-item text-white" to="" >
+                        <Link class="dropdown-items text-white" to="" >
                           Another action
                         </Link>
                       </li>
                       <li>
-                        <Link class="dropdown-item text-white" to="" >
+                        <Link class="dropdown-items text-white" to="" >
                           Something else here
                         </Link>
                       </li>
@@ -124,7 +124,7 @@ const Header = () => {
                   </div>
                 </div>
                 <div className="menu-links">
-                  <div className="d-flex align-item-center gap-15">
+                  <div className="d-flex align-items-center gap-15">
                     <NavLink to="/">मुख्यपृष्ठ</NavLink>
                     <NavLink to="/">आमचे दुकान</NavLink>
                     <NavLink to="/">Blog</NavLink>
