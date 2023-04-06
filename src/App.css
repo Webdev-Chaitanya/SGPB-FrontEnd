@@ -226,8 +226,11 @@ color: var(--color-131921);
   padding: 15px;
   background-color: white;
   border-radius: 10px;
+  overflow: hidden;
 }
-
+.product-card:hover .action-bar {
+  right: 15px;
+}
 .product-card .product-details h6{
   color: var(--color-bf4800);
   font-size: 13px;
@@ -240,6 +243,10 @@ color: var(--color-131921);
 .product-card .product-details p.price{
   font-size: 16px;
   color: var(--color-1c1c1b);
+}
+.action-bar{
+  top: 10%;
+  right: -23px;
 }
 
 /* Product card section end */
