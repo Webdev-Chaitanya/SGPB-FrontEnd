@@ -658,6 +658,9 @@ color: var(--color-131921);
   font-size: 16px;
   color: var(--color-777777);
 }
+.title{
+  font-weight: 800;
+}
 /* Shipping page ends here */
 
 

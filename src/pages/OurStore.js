@@ -150,10 +150,15 @@ function OurStore() {
                 <div className="filter-sort-grid mb-4">
                     <div className="d-flex justify-content-between align-items-center">
                         <div className="d-flex align-items-center gap-10">
-                            <p className="mb-0 d-block" style={{width:"100px"}}>Sort By</p>
-                            <select name="" className="form-control form-select" id="">
+                            <p className="mb-0 d-block" style={{width:"100px"}}>
+                                Sort By</p>
+                            <select 
+                            name="" 
+                            defaultValue={"manula"}
+                            className="form-control form-select" 
+                            id="">
                                 <option value="manual">Features</option>
-                                <option value="best-selling" selected="selected">Best selling</option>
+                                <option value="best-selling">Best selling</option>
                                 <option value="title-ascending">Alphabetically, A-z</option>
                                 <option value="title-descending">Alphabetically Z-A</option>
                                 <option value="price-ascending">price: low to High</option>
