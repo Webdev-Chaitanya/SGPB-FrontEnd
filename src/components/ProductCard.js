@@ -34,7 +34,7 @@ const ProductCard = (props) => {
           <img src={watch} className="img-fluid" alt="product image" />
           <img src={watch1} className="img-fluid" alt="product image" />
         </div>
-        <div className="product-details">
+        <div className="product-details ">
           <h6 className="brand">Havels</h6>
           <h5 className="product-title">
             Kids headphone bulk 10 pack multi colored for students
